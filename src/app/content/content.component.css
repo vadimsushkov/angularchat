@@ -1,0 +1,62 @@
+.content{
+  position: absolute;
+  left: 339px;
+  right: 12px;
+  bottom: 12px;
+  top: 93px;
+  background: #E1E1E1;
+  border-radius: 2px;
+}
+
+.write-place{
+  position: absolute;
+  width: 100%;
+  height: 85px;
+  bottom: 0;
+  background: #C4C4C4;
+}
+
+textarea{
+  width: 1000px;
+  height: 60px;
+  background-color: transparent;
+  border:none!important;
+  font-family: Noto Serif JP;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  resize: none;
+  overflow: hidden;
+}
+
+.write-place-area{
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+
+.write-place-line{
+  position: absolute;
+  width: 1000px;
+  left: 0px;
+  top: 60px;
+  border: 1px solid #000000;
+}
+
+.file-message{
+  position: absolute;
+  top: 13px;
+  left: 1100px;
+}
+
+.audio-message{
+  position: absolute;
+  cursor: pointer;
+}
+
+.video-message{
+  position: absolute;
+  left: 63px;
+  cursor: pointer;
+}
