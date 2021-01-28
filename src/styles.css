@@ -1,2 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 body { background-color: #1A1A1A; }
+
+.main-box {
+  position: relative;
+  margin: 200px auto;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 5px solid #E1E1E1;
+  transform-style: preserve-3d;
+  animation: main-rotate 1.5s cubic-bezier(0,0,0.58,1);
+}
+
+.outer {
+  position: absolute;
+}
+
+.outer img{
+  width: 200px;
+  height: 200px;
+}
+
+.interior {
+  transform: translateZ(-5em) scale(0.8);
+
+}
+@keyframes main-rotate {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
